@@ -1,0 +1,41 @@
+/**
+ * Tailwind 4 design tokens.
+ * Tier 1: raw palette (legacy.css에서 추출).
+ * Tier 2: semantic — Light 모드는 :root, Dark 모드는 body.dark 에서 오버라이드.
+ *
+ * legacy.css가 직접 hex/rgba를 사용 중이므로 토큰 활용은 신규 컴포넌트(*.module.css)부터.
+ * legacy.css 분해 시 점진적으로 토큰으로 치환.
+ */
+
+@theme {
+  /* palette */
+  --color-ink-900: #050505;
+  --color-ink-800: #020107;
+  --color-ink-700: #222;
+  --color-paper: #fff;
+  --color-neutral-200: #ddd;
+  --color-accent-coral: #fb6363;
+  --color-accent-peach: #fae8e1;
+  --color-accent-amber: #ffa41b;
+  --color-accent-violet: #302969;
+
+  /* fonts (font-face는 globals/index.css에 정의됨) */
+  --font-display: 'DMSerifDisplay', serif;
+  --font-sans: 'Pretendard', 'NotoSans', system-ui, sans-serif;
+  --font-script: 'Hanuman', cursive;
+}
+
+:root {
+  /* semantic — light */
+  --bg: var(--color-paper);
+  --fg: var(--color-ink-900);
+  --muted: var(--color-neutral-200);
+  --stroke: var(--color-ink-900);
+}
+
+body.dark {
+  /* semantic — dark */
+  --bg: var(--color-ink-800);
+  --fg: var(--color-paper);
+  --stroke: var(--color-paper);
+}

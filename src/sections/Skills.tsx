@@ -4,45 +4,51 @@ export function Skills() {
       <h3 className="title">Skills</h3>
       <ul className="list">
         <li>
-          <h4>HTML5 CSS3 SCSS</h4>
+          <h4>Language</h4>
           <div className="content">
-            <p>웹표준과 접근성을 고려한 시맨틱태그</p>
-            <p>Position, flex, grid등을 이용한 레이아웃 구현, 반응형 웹 제작, Animation을 이용한 모션구현</p>
-            <p>scss의 이해를 통한 mixin, 변수, include등 활용</p>
+            <p>JavaScript ES6+ 함수형 도구(map/filter/reduce) 활용</p>
+            <p>TypeScript strict, 제네릭, 유틸리티 타입 사용</p>
+            <p>async/await, Promise 기반 비동기 흐름 처리</p>
           </div>
         </li>
         <li>
-          <h4>JavaScript &#183; Json</h4>
+          <h4>Framework</h4>
           <div className="content">
-            <p>ES6+과 Map, Filter, Reduce등 함수의 이해를 통한 동적 웹페이지 구현</p>
-            <p>setInterval, promise, async await등 비동기적 실행 이해</p>
-            <p>fetchAPI, axiosLibrary를 통한 데이터활용과 JSON 파일 생성 및 이용</p>
+            <p>React 19 / Vue.js — 컴포넌트 기반 SPA 구현 /Hooks, Context, Suspense 기반 개발</p>
+            <p>Next.js 15 — App Router, SSR/CSR, monorepo 운영</p>
+            <p>Flutter — WebApp iOS/Android 빌드 및 배포 경험</p>
           </div>
         </li>
         <li>
-          <h4>React</h4>
+          <h4>Styling</h4>
           <div className="content">
-            <p>SPA Framework과 Component LifeCycle Method의 이해</p>
-            <p>Hooks을 이용한 동적작동 및 Context API를 이용한 전역 상태관리</p>
-            <p>useEffect, useState등 Hooks의 사용과 React-router-dom을 이용</p>
+            <p>Tailwind CSS 4 — color chart값 토큰화</p>
+            <p>shadcn/ui + Radix — 접근성 고려한 headless UI 통한 디자인시스템 구축</p>
+            <p>SCSS, styled-components, GSAP 모션 구현</p>
           </div>
         </li>
         <li>
-          <h4>Git &#183; Firebase</h4>
+          <h4>State &amp; API</h4>
           <div className="content">
-            <p>GitBash를 이용한 프로젝트 버전관리와 팀 작업</p>
-            <p>GitHub를 이용한 배포</p>
-            <p>firebase를 이용한 데이터 생성 추가</p>
+            <p>Redux Toolkit + RTK Query / vuex — 서버 상태 캐싱 동기화</p>
+            <p>Zustand + TanStack Query — CSR-first 패턴 적용</p>
+            <p>React Hook Form + Zod — 폼 검증과 타입 안전성</p>
           </div>
         </li>
         <li>
-          <h4>
-            <span>figma</span> <span>photo shop</span> <span>illust</span>
-          </h4>
+          <h4>Backend &amp; Infra</h4>
           <div className="content">
-            <p>WireFrame, VectorImage, Prototype 제작</p>
-            <p>이미지 편집 &amp; 디자인</p>
-            <p>Icon, UI/UX 소스제작</p>
+            <p>Node.js — Express, Koa 기반 REST API 서버 개발</p>
+            <p>MongoDB, Firebase, FCM — 데이터 설계 및 운영 경험, app push messaging system</p>
+            <p>AWS S3, Swagger — 파일 업로드 및 API 문서화</p>
+          </div>
+        </li>
+        <li>
+          <h4>Tooling &amp; Design</h4>
+          <div className="content">
+            <p>Git/GitHub — 브랜치 전략, PR 리뷰 협업 경험</p>
+            <p>pnpm/Yarn, ESLint, Prettier — 코드 품질 유지 및 취약점 관리</p>
+            <p>Figma (Photoshop, Illustrator) — 디자인 가공</p>
           </div>
         </li>
       </ul>

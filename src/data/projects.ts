@@ -1,6 +1,14 @@
 import work1 from '../assets/work/work1.webp'
 import work2 from '../assets/work/work2.webp'
 import work3 from '../assets/work/work3.webp'
+import work4 from '../assets/work/work4.webp'
+import work5 from '../assets/work/work5.webp'
+import work6 from '../assets/work/work6.webp'
+import work7 from '../assets/work/work7.webp'
+import work8 from '../assets/work/work8.webp'
+import work9 from '../assets/work/work9.webp'
+import work10 from '../assets/work/work10.webp'
+import work11 from '../assets/work/work11.webp'
 
 export type Project = {
   href: string
@@ -38,7 +46,7 @@ export const projects: Project[] = [
   },
   {
     href: 'https://next-js-practice-messageboard.vercel.app/',
-    thumbnail: work1,
+    thumbnail: work4,
     alt: 'Next.js SSR 게시판',
     cursorName: '#Next.js',
     tags: ['#Next.js', '#SSR'],
@@ -46,7 +54,7 @@ export const projects: Project[] = [
   },
   {
     href: 'https://monorepo-project-ai-kwater.vercel.app/',
-    thumbnail: work2,
+    thumbnail: work5,
     alt: '수자원 관제 사이트 mockdata',
     cursorName: '#monorepo',
     tags: ['#Next.js', '#monorepo', '#msw'],
@@ -54,7 +62,7 @@ export const projects: Project[] = [
   },
   {
     href: 'https://monorepo-saju-hskim.vercel.app/',
-    thumbnail: work3,
+    thumbnail: work6,
     alt: '재미로 보는 사주',
     cursorName: '#사주',
     tags: ['#Next.js', '#monorepo'],
@@ -62,7 +70,7 @@ export const projects: Project[] = [
   },
   {
     href: 'https://next-js-practice-seven-black.vercel.app/',
-    thumbnail: work1,
+    thumbnail: work7,
     alt: '익명 게시판',
     cursorName: '#익명게시판',
     tags: ['#Next.js', '#SSR'],
@@ -70,7 +78,7 @@ export const projects: Project[] = [
   },
   {
     href: 'https://yourlog-red.vercel.app/docs',
-    thumbnail: work2,
+    thumbnail: work8,
     alt: 'Yourblog swagger 문서',
     cursorName: '#backend',
     tags: ['#Koa', '#mongodb', '#TS'],
@@ -78,7 +86,7 @@ export const projects: Project[] = [
   },
   {
     href: 'https://yourlog-v447.vercel.app/',
-    thumbnail: work3,
+    thumbnail: work9,
     alt: 'Yourblog 서비스',
     cursorName: '#Yourblog',
     tags: ['#React.js', '#TS'],
@@ -86,7 +94,7 @@ export const projects: Project[] = [
   },
   {
     href: 'https://kim-hyosun.github.io/counter-todolist/',
-    thumbnail: work1,
+    thumbnail: work10,
     alt: 'todo-list, counter',
     cursorName: '#todo',
     tags: ['#React.js'],
@@ -94,7 +102,7 @@ export const projects: Project[] = [
   },
   {
     href: 'https://kim-hyosun.github.io/ReactPracticePart1/',
-    thumbnail: work2,
+    thumbnail: work11,
     alt: '퍼블리싱 연습',
     cursorName: '#퍼블리싱',
     tags: ['#React.js', '#퍼블리싱'],

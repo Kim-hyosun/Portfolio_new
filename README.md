@@ -149,11 +149,6 @@ VITE_EMAILJS_TEMPLATE_ID=...
   - `src/styles/loading.css` (90줄) — 기존 `load.css` 영역 (별 애니메이션)
   - `legacy.css` 1622 → 1488줄로 감소
 
-### ⏳ 잔여 작업 (별도 phase)
-- **`legacy.css` 1488줄 잔여 분해**: Header / MenuPage / Work / Skills / About / Contact / Footer / Background CSS가 한 `basic.css` 안에 산재되어 컴포넌트별 추출에 sed 단위 잘라내기 한계. 점진적 분해 권장 (한 컴포넌트씩, JSX className→`styles.*` 매핑과 함께)
-- 미디어쿼리 167개(SCSS mixin 18종이 컴파일되며 폭증) → Tailwind sm/md/lg/xl로 압축
-- 사용 안 하는 NotoSansKR woff/woff2 8개 정리
-- 신규 8개 work 카드의 실제 스크린샷 교체 (현재는 work1/2/3 돌려막기)
 
 ---
 
